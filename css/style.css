@@ -1,0 +1,127 @@
+/* Formatações gerais */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;    
+}
+
+body , html, #home {
+    height: 100%; 
+    background: #fff;
+}
+
+#login{
+    height: 100%;
+    background: linear-gradient(20deg,#007bff,#fff);
+}
+
+header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* Formatação tela de login */
+
+#login h1{
+    border: 1px solid red;
+    padding: 10px;    
+}
+
+.box {
+    height: 300px;  
+    border-radius: 10px;  
+}
+
+.button-login a{
+    font-size: 20px;
+}
+
+.button-login a:hover{    
+    color: #007bff ;
+}
+
+/* Formatação barra de navegação */
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    
+    font-size: 18px;    
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(213, 211, 211);
+    
+}
+
+.divisor {
+    width: 2px;    
+    background: white;
+    margin: 12px 15px;
+}
+
+/* Formatação tela home */
+
+#home{
+    padding-top: 10px; 
+    
+}
+
+.box-container{
+    background: #B2D4FB;
+}
+
+.color{
+    background: #0352a6;
+}
+
+.dropdown-item:focus, .dropdown-item{
+    color: white;       
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    color: white;  
+    background: #084b92;     
+    font-size: 18px;
+}
+
+.text-slide{
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+    padding: 5px;        
+}
+
+.text-slide p,h3{
+    font-weight: 700;  
+}
+
+.campo-avaliacao{
+    width: 100px;
+    text-align: center;       
+}
+
+.box-avaliation{
+    padding: 10px;
+    border: 2px solid #0352a6;
+    border-radius: 50px;
+    background: #084b92;
+    color: white;
+    
+}
+
+.label-avaliation{
+    margin: 0;
+    font-weight: 600;
+}
+
+.tittle-avaliacao{
+    font-style: italic;
+    font-weight: 800;
+}
+
+
+/* Formtação footer */
+
+.footer-text{
+    margin: 0;
+    text-indent: 50px;    
+}
