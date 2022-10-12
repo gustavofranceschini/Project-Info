@@ -65,7 +65,7 @@
                     <li class="nav-item dropdown">
                       <a href="" class="nav-link dropdown-toggle btn btn-primary rounded-0" data-toggle="dropdown">Cadastros</a>
                       <div class="dropdown-menu box-left w-100 text-center color">
-                        <a class="dropdown-item" href="cadastro-cliente.html">
+                        <a class="dropdown-item" href="#">
                           <span>Cliente</span>
                           <i class="fa-solid fa-person fa-lg pl-2"></i>
                         </a>
@@ -140,67 +140,70 @@
                     <i class="fa-solid fa-utensils p-2"></i>                  
                 </div>
               </div><!--Fim conteudo esquerdo-->       
-            <div class="col-md-8 col-sm-12 col-12 m-0 p-0"><!--Inicio conteudo direito-->     
-                <div class="box-slide-home">
-                  <div id="carousel-infototal" class="carousel slide border-style-conteudo-home" data-ride="carousel"><!--Inicio carousel slide-->
-                    <div class="carousel-inner"><!--Inicio carousel inner-->
-                      <div class="carousel-item active">
-                        <img src="img/gestao-info.jpg
-                        " alt="" class="img-fluid">
-                        <div class="carousel-caption text-slide">
-                          <h3>Gestão</h3>
-                          <p>Tenha um melhor gerenciamento para o seu negócio</p>
-                        </div>
+              <div class="col-md-9 col-sm-12 col-12 m-0 p-0 border border-danger"><!--Inicio conteudo direito-->     
+                <div class="box-cadastro-client"><!--Area de cadastro cliente-->
+                  <h3>Cadastro de Cliente</h3>                  
+                  <form>
+                    <div class="form-row">
+                      <div class="form-group col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <label for="inputName">Nome</label>
+                        <input type="text" class="form-control" name="name" id="inputName" placeholder="Digite seu nome" required>
                       </div>
-                      <div class="carousel-item">
-                        <img src="img/treinamento-info.jpg" alt="" class="img-fluid">
-                        <div class="carousel-caption text-slide">
-                          <h3>Treinamento</h3>
-                          <p>Agregando conhecimentos com os melhores profissionais</p>
-                        </div>
+                      <div class="form-group col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <label for="inputLastnames">Sobrenome</label>
+                        <input type="text" class="form-control" name="lastName" id="inputLastname" placeholder="Digite seu sobrenome" required>
                       </div>
-                      <div class="carousel-item">
-                        <img src="img/consultoria-info.jpg" alt="" class="img-fluid">
-                        <div class="carousel-caption text-slide">
-                          <h3>Consultoria</h3>
-                          <p>Acompanhamento e análise de todo processo</p>
-                        </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="text" class="form-control" name="emailClient" id="email" placeholder="Digite seu e-mail">
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <label for="cpf">CPF</label>
+                        <input type="text" class="form-control" name="cpfClient" id="cpf" placeholder="Digite seu CPF">
                       </div>
-                    </div><!--Fim carousel inner-->
-                    <!--Controllers-->
-                    <a href="#carousel-infototal" class="carousel-control-prev" data-slide="prev">
-                      <i class="fa-solid fa-angles-left fa-3x text-dark angle-slide"></i>
-                    </a>
-                    <a href="#carousel-infototal" class="carousel-control-next" data-slide="next">
-                      <i class="fa-solid fa-angles-right fa-3x text-dark"></i>
-                    </a>
-                    <!--/Controllers-->
-                  </div><!--Fim carousel slide-->
-                </div>                           
+                      <div class="form-group col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <label for="rg">RG</label>
+                        <input type="text" class="form-control" name="rgClient" id="rg" placeholder="Digite seu RG">
+                      </div>
+                      <div class="form-group col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <label for="dayBirth">Data de Nascimento</label>
+                        <input type="date" class="form-control" name="dayBirthClient" id="dayBirth">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="address">Endereço</label>
+                      <input type="text" class="form-control" name="endereco" id="address" placeholder="Digite seu endereço" required>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <label for="complement">Complemento</label>
+                        <input type="text" class="form-control" name="complemento" id="complement" placeholder="Digite seu complemento.. Ex: APT N° 10" required>
+                      </div>
+                      <div class="form-group col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <label for="bairro">Bairro</label>
+                        <input type="text" class="form-control" name="bairroEndereco" id="bairro" placeholder="Digite seu bairro">
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <label for="city">Cidade</label>
+                        <input type="text" class="form-control" name="cidade" id="city" placeholder="Digite sua cidade">
+                      </div>
+                      <div class="form-group col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <label for="state">Estado</label>
+                        <input type="text" class="form-control" name="estado" id="state" placeholder="Digite seu estado">
+                      </div>
+                      <div class="form-group col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <label for="cep">CEP</label>
+                        <input type="text" class="form-control" name="cep-address" id="cep" placeholder="Digite seu CEP">
+                      </div>
+                    </div>
+                  </form>
+                </div>  <!--/Area de cadastro cliente -->                     
                                                 
-            </div><!--Fim conteudo direito--> 
-            <div class="col-12 col-md-12 col-sm-12 col-lg-12 mt-4 mb-4"><!--Box Avaliation-->                               
-              <div class="box-avaliation">
-                <h5 class="tittle-avaliacao">Em uma escala de 0 a 10, o que achou do site ?</h5>
-                <form action="">
-                  <div class="form-group" style="margin: 0;">
-                    <label for="avaliacao" class="label-avaliation">Nota</label>
-                    <select class="campo-avaliacao" name="avaliar" id="avaliacao">
-                      <option value="1" >1</option>
-                      <option value="1">2</option>
-                      <option value="1">3</option>
-                      <option value="1">4</option>
-                      <option value="1">5</option>
-                      <option value="1">6</option>
-                      <option value="1">7</option>
-                      <option value="1">8</option>
-                      <option value="1">9</option>
-                      <option value="1">10</option>
-                    </select>
-                  </div>
-                </form>
-              </div>                      
-            </div><!--/Box Avaliation-->        
+            </div> <!--Fim conteudo direito-->    
           </div><!--/Row-->
         </div><!--Fim container-->
        </section>
