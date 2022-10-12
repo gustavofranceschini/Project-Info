@@ -5,9 +5,12 @@ body {
     font-size: 16px;    
 }
 
-body , html, #home {         
+body ,html{         
     background: #fff;
+    height: 100%;   
+    overflow-x: hidden; 
 }
+
 
 #login{
     height: 100%;
@@ -60,7 +63,8 @@ header{
 /* Formatação tela home */
 
 #home{
-    padding-top: 10px;    
+    padding-top: 10px; 
+    background: #fff;   
 }
 
 .box-container{
@@ -136,12 +140,24 @@ header{
     color: #fff;
 }
 
+.footer-info{    
+    bottom: 0px;
+    width: 100%;      
+} 
+
+.footer-social{
+    color: white;
+}
+    
+
 
 
 /* Formatação tela cadastro de cliente */
 
 .box-cadastro-client{
     padding: 10px;
+    border: 2px solid #084b92;
+    margin-left: 5px;
 }
 
 .box-cadastro-client h3 {
@@ -150,6 +166,19 @@ header{
     font-style: italic;
     
 }
+
+.form-client label{
+    font-weight: bold;
+    
+}
+
+
+
+.button-register:hover{    
+    font-weight: bold;    
+    letter-spacing: 0.05em;
+}
+ 
 
 
 

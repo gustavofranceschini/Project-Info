@@ -137,13 +137,13 @@
                   </div>
                 </div>
                 <div class="text-center icon-food ">                  
-                    <i class="fa-solid fa-utensils p-2"></i>                  
+                  <i class="fa-solid fa-person p-2"></i>                  
                 </div>
               </div><!--Fim conteudo esquerdo-->       
-              <div class="col-md-9 col-sm-12 col-12 m-0 p-0 border border-danger"><!--Inicio conteudo direito-->     
+              <div class="col-md-9 col-sm-12 col-12 m-0 p-0"><!--Inicio conteudo direito-->     
                 <div class="box-cadastro-client"><!--Area de cadastro cliente-->
                   <h3>Cadastro de Cliente</h3>                  
-                  <form>
+                  <form class="form-client">
                     <div class="form-row">
                       <div class="form-group col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                         <label for="inputName">Nome</label>
@@ -172,9 +172,15 @@
                         <input type="date" class="form-control" name="dayBirthClient" id="dayBirth">
                       </div>
                     </div>
-                    <div class="form-group">
-                      <label for="address">Endereço</label>
-                      <input type="text" class="form-control" name="endereco" id="address" placeholder="Digite seu endereço" required>
+                    <div class="form-row">
+                      <div class="form-group col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                        <label for="address">Endereço</label>
+                        <input type="text" class="form-control" name="endereco" id="address" placeholder="Digite seu endereço" required>
+                      </div>
+                      <div class="form-group col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <label for="fone">Telefone</label>
+                        <input type="text" class="form-control" name="telefone" id="fone" placeholder="Digite seu telefone">
+                      </div>
                     </div>
                     <div class="form-row">
                       <div class="form-group col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
@@ -200,15 +206,18 @@
                         <input type="text" class="form-control" name="cep-address" id="cep" placeholder="Digite seu CEP">
                       </div>
                     </div>
-                  </form>
-                </div>  <!--/Area de cadastro cliente -->                     
+                  </form>   
+                  <div class="text-center">
+                    <button type="submit" class="btn btn-primary button-register w-75">CADASTRAR</button> 
+                  </div>             
+                </div>  <!--/Area de cadastro cliente -->                                     
                                                 
             </div> <!--Fim conteudo direito-->    
           </div><!--/Row-->
         </div><!--Fim container-->
        </section>
 
-       <footer class="footer-info bg-primary p-1">        
+       <div class="footer-info bg-primary p-1">        
         <div class="container-fluid">
           <div class="row">
             <div class="col-12 col-sm-12 col-md-8">              
@@ -226,16 +235,16 @@
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex">
               <div class="align-self-center m-auto">
                 <a href="https://www.instagram.com/grupo_infototal/?next=%2F" class="mr-2" target="_blank">
-                  <i class="fa-brands fa-instagram text-dark fa-lg"></i>
+                  <i class="fa-brands fa-instagram footer-social fa-lg"></i>
                 </a>
                 <a href="https://www.facebook.com/grupoinfototal" target="_blank">
-                  <i class="fa-brands fa-facebook text-dark fa-lg"></i>
+                  <i class="fa-brands fa-facebook footer-social fa-lg"></i>
                 </a>
               </div>
             </div>
           </div>
         </div>
-       </footer>
+      </div>
 
     
 
